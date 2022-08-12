@@ -20,8 +20,12 @@ body{
   justify-content: space-between;
   align-items: center;
 }
+.logo{
+  display: block;
+}
 .logo:hover{
 color: #DE2E54;
+opacity: 0.6;
 }
 .logo:active{
   opacity: 0.6;
@@ -46,6 +50,7 @@ color: #DE2E54;
   list-style: none;
 }
 .nav-item{
+  display: block;
   font-weight: bold;
   padding-right: 32px;
   color: #222222;
